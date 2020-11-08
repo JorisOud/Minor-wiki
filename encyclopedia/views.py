@@ -10,7 +10,10 @@ def index(request):
     })
 
 def entry(request, entry_name):
-    return render(request, "encyclopedia/entry.html",{
-        "entry_name": entry_name,
-        "entry_text": markdown(util.get_entry(entry_name))
-    })
+    if entry_name in util.list_entries():
+        return render(request, "encyclopedia/entry.html",{
+            "entry_name": entry_name,
+            "entry_text": markdown(util.get_entry(entry_name))
+        })
+
+    return render(request, "encyclopedia/entry_error.html")
