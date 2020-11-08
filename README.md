@@ -1,8 +1,16 @@
-# Application Name
+# Design document
 
-TODO: Describe your application here.
+## Files that need adjusting to create new page
+- the urls.py file of the encyclopedia app.
+- a new function in views.py
+- a new HTML file for that page
 
 
-## Getting Started
-
-TODO: Describe steps to install requirements and get the application running.
+## HTML files to be created
+ - Entry page
+ - Error page: entry not found
+ - search results page
+ - new page page
+ - error page: page already exists???????
+ - Edit page
+ 
