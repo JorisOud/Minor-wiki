@@ -14,4 +14,4 @@
  - error page: page already exists
  - Edit page
 
-![sketch wiki](sketch_wiki.jpg)
+![sketch wiki](sketch_image/sketch_wiki.jpg)
