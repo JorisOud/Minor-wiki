@@ -11,7 +11,7 @@
  - Error page: entry not found
  - search results page
  - new page page
- - error page: page already exists???????
+ - error page: page already exists
  - Edit page
 
- [sketch wiki](sketch wiki.jpg)
+![sketch wiki](sketch wiki.jpg)
