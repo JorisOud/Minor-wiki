@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create New Page
+{% endblock %}
+
+{% block body %}
+    <h1>Create new page</h1>
+
+    <form action="encyclopedia:new_page" method="POST">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="Enter page title" autofocus>
+        <br>
+        Write the contents of your new page as markdown text in the area below.
+        <textarea name="new_page_text"></textarea>
+        <br>
+        <input type="submit" value="Save Page">
+    </form>
+
+
+
+
+{% endblock %}
