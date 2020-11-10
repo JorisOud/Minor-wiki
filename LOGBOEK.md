@@ -22,3 +22,8 @@ Omdat ik het gevoel had dat ik wat achterliep:
 - college herbekeken over Django forms 
 
 ### Dinsdag
+- new page afgemaakt
+- edit page gemaakt
+- alle specifications punten werken nu, maar het is allemaal niet heel mooi
+
+### Woensdag

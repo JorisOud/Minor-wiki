@@ -7,3 +7,7 @@
 {% block body %}
 {{ entry_text|safe }}
 {% endblock %}
+
+{% block nav %}
+<a href="{% url 'encyclopedia:edit_page' entry_name %}">Edit Page</a>
+{% endblock %}
