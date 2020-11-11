@@ -9,7 +9,9 @@
 
     <ul>
         {% for result in results_list %}
-            <li><a href="{{ result }}">{{ result }}</a></li>
+            <li><a href="{% url 'encyclopedia:entry' result %}">{{ result }}</a></li>
+        {% empty %}
+            No matches found.
         {% endfor %}
     </ul>
 

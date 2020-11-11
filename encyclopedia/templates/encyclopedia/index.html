@@ -9,7 +9,9 @@
 
     <ul>
         {% for entry in entries %}
-            <li><a href="{{ entry }}">{{ entry }}</a></li>
+            <li><a href="{% url 'encyclopedia:entry' entry %}">{{ entry }}</a></li>
+        {% empty %}
+            <li>There are no pages yet. Click 'Create New Page' to make a page.</li>
         {% endfor %}
     </ul>
 
