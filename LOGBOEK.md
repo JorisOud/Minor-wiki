@@ -27,3 +27,12 @@ Omdat ik het gevoel had dat ik wat achterliep:
 - alle specifications punten werken nu, maar het is allemaal niet heel mooi
 
 ### Woensdag
+- review gedaan
+- Aan de hand daarvan verschillende dingen verbeterd, vooral aan views.py
+- Sanne geholpen met het oplossen van een error met een link
+
+### Donderdag
+- Comments toegevoegd aan views.py
+- werkgroep
+- Screencast wiki opgenomen
+- begonnen met SQL college kijken
